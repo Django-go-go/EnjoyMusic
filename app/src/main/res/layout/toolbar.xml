@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/colorAccent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/toolbar_iv"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_arrow_back_white_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RelativeLayout
+            android:id="@+id/toolbar_relative"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/toolbar_tv1"
+                android:textSize="18sp"
+                android:singleLine="true"
+                android:layout_marginEnd="4dp"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/toolbar_tv2"
+                android:textSize="12sp"
+                android:singleLine="true"
+                android:visibility="gone"
+                android:layout_below="@+id/toolbar_tv1"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/toolbar_edit"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="8dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="搜索歌曲"
+            android:textColorHint="@color/white_half"
+            android:imeOptions="actionSearch"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.Toolbar>

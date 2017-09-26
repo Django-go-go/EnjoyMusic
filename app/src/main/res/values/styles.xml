@@ -1,0 +1,88 @@
+<resources>
+
+    <style name="AppTheme" parent="AppTheme.Base">
+    </style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryDark">@color/red</item>
+        <!--1.colorPrimary 应用的主要色调，actionBar默认使用该颜色，Toolbar导航栏的底色-->
+        <!--2.colorPrimaryDark 应用的主要暗色调，statusBarColor默认使用该颜色-->
+        <item name="colorAccent">@color/red</item>
+        <!--8.colorAccent CheckBox，RadioButton，SwitchCompat等一般控件的选中效果默认采用该颜色-->
+
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorSecondary">@color/gray_black</item>
+        <!--14.textColor Button，textView的文字颜色-->
+        <!--15.textColorPrimaryDisableOnly RadioButton checkbox等控件的文字-->
+        <!--16.textColorPrimary 应用的主要文字颜色，actionBar的标题文字默认使用该颜色-->
+
+        <item name="android:windowBackground">@color/gray_white</item>
+        <!--4.windowBackground 窗口背景颜色-->
+
+        <item name="colorControlNormal">@color/white</item>
+        <!--9.colorControlNormal CheckBox，RadioButton，SwitchCompat等默认状态的颜色。-->
+        <item name="colorControlActivated">@color/gray</item>
+        <!--11.colorControlActivated 控件选中时的颜色，默认使用colorAccent-->
+        <item name="colorControlHighlight">@color/gray</item>
+        <!--10.colorControlHighlight 控件按压时的色调-->
+
+        <item name="android:statusBarColor">@color/red</item>
+        <!--3.statusBarColor 状态栏颜色，默认使用colorPrimaryDark-->
+
+
+
+        <!--5.navigationBarColor 底部栏颜色-->
+
+        <item name="android:colorForeground">@color/dark_gray</item>
+        <!--6.colorForeground 应用的前景色，ListView的分割线，switch滑动区默认使用该颜色-->
+
+        <!--7.colorBackground 应用的背景色，popMenu的背景默认使用该颜色-->
+
+
+        <item name="android:colorButtonNormal">@color/white</item>
+        <!--12.colorButtonNormal 默认按钮的背景颜色-->
+
+        <!--13.editTextColor：默认EditView输入框字体的颜色。-->
+
+        <!--17.colorSwitchThumbNormal: switch thumbs 默认状态的颜色. (switch off)-->
+        <item name="android:actionMenuTextAppearance">@style/actionMenu</item>
+
+    </style>
+
+    <style name="actionMenu">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!--<style name="MaterialSearchViewStyle">-->
+        <!-- Background for the search bar -->
+        <!--<item name="searchBackground">@color/theme_primary</item>-->
+
+        <!-- Change voice icon -->
+        <!--<item name="searchVoiceIcon">@drawable/ic_action_voice_search_inverted</item>-->
+
+        <!-- Change clear text icon -->
+        <!--<item name="searchCloseIcon">@drawable/ic_action_navigation_close_inverted</item>-->
+
+        <!-- Change up icon -->
+        <!--<item name="searchBackIcon">@drawable/ic_action_navigation_arrow_back_inverted</item>-->
+
+        <!-- Change icon for the suggestions -->
+        <!--<item name="searchSuggestionIcon">@drawable/ic_suggestion</item>-->
+
+        <!-- Change background for the suggestions list view -->
+        <!--<item name="searchSuggestionBackground">@android:color/white</item>-->
+
+        <!-- Change text color for edit text. This will also be the color of the cursor -->
+        <!--<item name="android:textColor">@color/white</item>-->
+
+        <!-- Change hint text color for edit text -->
+        <!--<item name="android:textColorHint">@color/white_half</item>-->
+
+        <!-- Hint for edit text -->
+        <!--<item name="android:hint">@string/search_hint</item>-->
+    <!--</style>-->
+</resources>

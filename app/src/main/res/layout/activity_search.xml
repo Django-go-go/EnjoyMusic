@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:zhy="http://schemas.android.com/tools">
+
+    <com.miguelcatalan.materialsearchview.MaterialSearchView
+        android:id="@+id/search_view"
+        app:searchBackground="@color/red"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <com.zhy.view.flowlayout.TagFlowLayout
+        android:id="@+id/flowlayout"
+        zhy:max_select="1"
+        android:layout_below="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+    </com.zhy.view.flowlayout.TagFlowLayout>
+
+    <ListView
+        android:visibility="gone"
+        android:layout_above="@+id/search_frame"
+        android:layout_below="@+id/search_view"
+        android:id="@+id/search_listview"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"/>
+
+    <FrameLayout
+        android:id="@+id/search_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+    </FrameLayout>
+
+</RelativeLayout>

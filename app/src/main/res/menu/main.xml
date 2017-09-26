@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group1">
+        <item
+            android:id="@+id/local"
+            android:icon="@drawable/local"
+            android:title="本地音乐"/>
+        <item
+            android:id="@+id/recorder"
+            android:icon="@drawable/recorder"
+            android:title="最近播放"/>
+    </group>
+    <item android:title="其他操作">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_delete"
+                android:title="退出"/>
+            <item
+                android:id="@+id/change"
+                android:icon="@drawable/changeuser"
+                android:title="切换账号"/>
+            <item
+                android:id="@+id/recommend"
+                android:icon="@drawable/recommend"
+                android:title="反馈"/>
+        </menu>
+    </item>
+
+</menu>

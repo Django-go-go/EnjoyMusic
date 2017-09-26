@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="backgroundColor">#E8E8E0</color>
+    <color name="backgroundColorPress">#DBDBD3</color>
+    <color name="red">#FF3B00</color>
+    <color name="red_">#FF3B00</color>
+    <color name="red_press">#990000</color>
+    <color name="dark_gray">#8b594f4f</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="dark_gray_press">#ff7e8a97</color>
+    <color name="gray">#8a939496</color>
+    <color name="gray_light">#8ababcc0</color>
+    <color name="zise">#8c8bab</color>
+    <color name="test">#8c8bab</color>
+
+    <color name="dialogplus_card_shadow">#D4D4D4</color>
+
+    <!-- Common -->
+    <color name="transparent">#00000000</color>
+    <color name="white_blue">#86c5b5</color>
+    <color name="black">#000000</color>
+    <color name="gray_black">#2c2c28</color>
+    <color name="white">#fefefe</color>
+    <color name="gray_white">#f6f6f2</color>
+    <color name="white_half">#70f6f6f2</color>
+    <color name="green">#15d532</color>
+    <color name="white_alpha">#00d5151f</color>
+
+
+</resources>

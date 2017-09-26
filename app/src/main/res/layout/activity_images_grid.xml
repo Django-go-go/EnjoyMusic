@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <android.support.v7.widget.Toolbar
+        android:background="?attr/colorAccent"
+        android:id="@+id/imagePicker_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <GridView
+        android:id="@+id/imagePicker_gridview"
+        android:layout_below="@+id/imagePicker_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:horizontalSpacing="2dp"
+        android:verticalSpacing="2dp"
+        android:listSelector="@android:color/transparent"
+        android:stretchMode="columnWidth"
+        android:paddingTop="2dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:paddingBottom="50dp"
+        android:clipToPadding="false"
+        android:numColumns="3"/>
+
+</RelativeLayout>

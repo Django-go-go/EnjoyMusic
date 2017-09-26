@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--根元素-->
+<!--<shape  xmlns:android="http://schemas.android.com/apk/res/android">-->
+<!--</shape>-->
+<!--子元素-->
+<!--<solid/>-填充颜色-->
+    <!--`android:color 设置填充的颜色-->
+<!--<corners/>-圆角 下列属性来设置圆角的参数-->
+    <!--android:radius四个角的弧度半径-->
+    <!--android:bottomLeftRadius左下角的弧度半径-->
+    <!--android:bottomRightRadius右下角的弧度半径-->
+    <!--android:topLeftRadius左上角的弧度半径-->
+    <!--android:topRightRadius右上角的弧度半径-->
+<!--<gradient/>-渐变 不常用不详述属性-->
+<!--<padding/>-内容离边界距离-->
+    <!--android:top距离上边界的距离-->
+    <!--android:bottom距离下边界的距离-->
+    <!--android:left距离左边界的距离-->
+    <!--android:right距离右边界的距离-->
+<!--<size/>-大小 可在这里设置控件宽度-->
+<!--<stroke/>-描边-->
+    <!--android:color 设置描边的颜色-->
+    <!--android:width 设置描边的宽度-->
+    <!--android:dashGap 设置小段实线之间的距离-->
+    <!--android:dashWidth 设置一小段实线的宽度-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+       android:shape="rectangle">
+    <!-- 渐变 -->
+    <gradient
+        android:angle="270"
+        android:endColor="#FFFFFF"
+        android:startColor="#f2f1f0"/>
+    <!-- 描边 -->
+    <stroke
+        android:width="2dp"
+        android:color="#f20606"/>
+    <!-- 圆角 -->
+    <corners
+        android:bottomLeftRadius="36dp"
+        android:bottomRightRadius="36dp"
+        android:topLeftRadius="36dp"
+        android:topRightRadius="36dp"
+        />
+
+    <!-- 边距-->
+    <!--<padding-->
+        <!--android:bottom="10dp"-->
+        <!--android:left="10dp"-->
+        <!--android:right="10dp"-->
+        <!--android:top="10dp"/>-->
+</shape>
+

@@ -1,0 +1,46 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--<item_imagepick_grid android:id="@+id/action_search"-->
+          <!--android:icon="@drawable/ic_search_white_24dp"-->
+          <!--android:title="搜索"-->
+          <!--android:orderInCategory="100"-->
+          <!--app:showAsAction="always"-->
+          <!--android:visible="false"/>-->
+    <item android:id="@+id/action_delete"
+          android:title="清空"
+          android:icon="@drawable/ic_delete"
+          android:orderInCategory="100"
+          app:showAsAction="always"
+          android:visible="false"/>
+    <item android:id="@+id/action_choose"
+          android:title="选择"
+          android:orderInCategory="100"
+          app:showAsAction="always"
+          android:visible="false"/>
+    <item android:id="@+id/action_classify"
+          android:title="筛选"
+          android:orderInCategory="100"
+          app:showAsAction="always"
+          android:visible="false"/>
+    <!--<item_imagepick_grid android:id="@+id/action_choose"-->
+          <!--android:title="多选"-->
+          <!--android:icon="@drawable/ic_list_black_24dp"-->
+          <!--android:orderInCategory="100"-->
+          <!--app:showAsAction="withText"-->
+          <!--android:visible="false"/>-->
+    <!--<item_imagepick_grid-->
+        <!--android:id="@+id/action_getsong"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="扫描本地音乐"-->
+        <!--android:visible="false"/>-->
+    <!--<item_imagepick_grid-->
+        <!--android:id="@+id/action_sort"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="选择排序方式"-->
+        <!--android:visible="false"/>-->
+    <!--<item_imagepick_grid-->
+        <!--android:id="@+id/action_getlrc"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="获取封面歌词"-->
+        <!--android:visible="false"/>-->
+</menu>

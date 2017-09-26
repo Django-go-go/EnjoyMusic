@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relative_back"
+    tools:context="com.example.administrator.httpdemo.activity.LoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/otherlogin"
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_above="@+id/login_linear"
+        android:layout_margin="5dp"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="@string/login"
+        android:background="@drawable/button"
+        android:layout_margin="8dp"
+        />
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/red"
+        android:layout_alignStart="@+id/login_button"
+        android:layout_below="@+id/login_button"
+        android:text="@string/register"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="@drawable/button"/>
+
+    <LinearLayout
+        android:id="@+id/login_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView_music"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_above="@+id/login_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"/>
+
+</RelativeLayout>

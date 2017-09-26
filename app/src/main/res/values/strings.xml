@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">我的音乐</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="category_all">All</string>
+    <string name="category_apk">APKs</string>
+    <string name="category_document">Docs</string>
+    <string name="category_favorite">Favorites</string>
+    <string name="category_music">Music</string>
+    <string name="category_other">Misc</string>
+    <string name="category_picture">Pics</string>
+    <string name="category_theme">Themes</string>
+    <string name="category_video">Videos</string>
+    <string name="category_zip">Zips</string>
+    <string name="name">songname</string>
+    <string name="singer">singer</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="otherlogin">其他登录方式</string>
+    <string name="PhoneOrName">请输入手机号或者用户名</string>
+    <string name="numberPhone">请输入手机号</string>
+    <string name="password">请输入密码</string>
+    <string name="SMSCode">请输入验证码</string>
+    <string name="NotRemeber">忘记密码?</string>
+    <string name="sendSMS">发送验证码</string>
+    <string name="MySongList">我的歌单</string>
+    <string name="songlistName">歌单名称</string>
+    <string name="songNum">歌曲数量</string>
+    <string name="everyShare">每日分享</string>
+    <string name="everyRecommend">每日歌曲推荐</string>
+    <string name="hotSong">热歌</string>
+    <string name="share">分享</string>
+    <string name="collect">收藏</string>
+    <string name="recommend">评论</string>
+    <string name="download">下载</string>
+    <string name="muiltchoose">多选</string>
+
+</resources>

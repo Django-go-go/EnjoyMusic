@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="search_layover_bg">#50000000</color>
+    <color name="white">#fefcfd</color>
+    <color name="gray_white">#f6f6f2</color>
+    <color name="white_half">#8af6f6f4</color>
+</resources>
