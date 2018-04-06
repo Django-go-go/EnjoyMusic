@@ -65,6 +65,7 @@
 我觉得这个软件还可以增加用户之间的交流功能,成为一个分享音乐的社交平台,不用于利益,只为了爱音乐的人们.因为开发时间与精力的限制,这个想法只能留在将来了.
 
 图片:
+![](EnjoyMusic/screenshots/Screenshot_2017-09-25-12-19-25.png)
 https://github.com/Jkingone/EnjoyMusic/blob/master/screenshots/Screenshot_2017-09-25-12-19-25.png
 https://github.com/Jkingone/EnjoyMusic/blob/master/screenshots/Screenshot_2017-09-25-12-19-35.png
 https://github.com/Jkingone/EnjoyMusic/blob/master/screenshots/Screenshot_2017-09-25-12-19-44.png
